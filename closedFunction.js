@@ -3,6 +3,7 @@ function closedFunction() {
     let counter = 0
 
     // this time increment within a child function that's assigned to a variable
+    // alternatively written as let increment = () => {}
     let increment = function() {
         counter++
         console.log(counter)

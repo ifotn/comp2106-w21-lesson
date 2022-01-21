@@ -6,7 +6,7 @@ let http = require('http')
 http.createServer((req, res) => {
     // send an HTTP response to every incoming request
     res.writeHead(200, { 'Content-Type': 'text-plain' })
-    res.end('Hello world. This is our first node page.')
+    res.end('Hello world. This is our first node page. Server now running with Nodemon.')
 }).listen(3000)
 
 console.log('Node server running on port 3000')

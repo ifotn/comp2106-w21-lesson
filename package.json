@@ -1,0 +1,24 @@
+{
+  "name": "lesson1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifotn/comp2106-w21-lesson.git"
+  },
+  "author": "IFOTN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifotn/comp2106-w21-lesson/issues"
+  },
+  "homepage": "https://github.com/ifotn/comp2106-w21-lesson#readme",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "weather-js": "^2.0.0"
+  }
+}
