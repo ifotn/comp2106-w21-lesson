@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ifotn/comp2106-w21-lesson#readme",
   "dependencies": {
     "accounting": "^0.4.1",
+    "express": "^4.17.2",
     "weather-js": "^2.0.0"
   }
 }
